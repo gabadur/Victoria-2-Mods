@@ -1,0 +1,84 @@
+political_decisions = {
+		gaba_pops = {
+			picture = essen_ruhr
+			potential = {
+				ai = no
+				NOT = { has_country_modifier = gaba_dummy_anti_boom }
+			}
+			allow = {
+			}
+			effect = {
+				any_owned = {
+					limit = {
+							is_colonial = no
+							NOT = { has_province_modifier = gaba_baby_boom }
+					}
+					add_province_modifier = {
+							name = gaba_baby_boom
+							duration = 730
+						}
+				}
+				add_country_modifier = {
+					name = gaba_dummy_anti_boom
+					duration = 750
+				}
+				#add_country_modifier = {
+				#	name = gaba_baby_boom
+				#	duration = 365
+				#}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+
+
+		gaba_read = {
+			picture = manifest_destiny
+			potential = {
+				ai = no
+				NOT = { has_country_modifier = gaba_reading }
+				NOT = { literacy = 0.9 } 
+			}
+			allow = {
+			}
+			effect = {
+				add_country_modifier = {
+					name = gaba_reading
+					duration = 365
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		gaba_land = {
+			picture = coffee_in_colombia
+			potential = {
+				ai = no
+				any_owned_province = { 
+					NOT = { has_province_modifier = plantation }
+				}
+			}
+			allow = {
+				war = no
+			}
+			effect = {
+				any_owned = {
+					limit = {
+						NOT = { has_province_modifier = plantation }
+					}
+					add_province_modifier = { name = plantation duration = -1 }
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+}

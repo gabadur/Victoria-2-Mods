@@ -1,0 +1,36 @@
+political_decisions = {
+		gaba_research = {
+			picture = manifest_destiny
+			potential = {
+				ai = no
+			}
+			allow = {
+			}
+			effect = {
+				research_points = 25000
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		gaba_rationalism = {
+			picture = manifest_destiny
+			potential = {
+				NOT = { has_country_modifier = gaba_rationalism }
+				ai = no
+			}
+			allow = {
+			}
+			effect = {
+				add_country_modifier = {
+					name = gaba_rationalism
+					duration = 3650
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+}

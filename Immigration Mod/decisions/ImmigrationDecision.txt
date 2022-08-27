@@ -1,0 +1,27 @@
+political_decisions = {
+	gaba_immigration = {
+		picture = manifest_destiny
+		potential = {
+			NOT = { has_country_flag = immigration_gaba }
+			OR = {
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america }
+				capital_scope = { continent = australia_new_zealand }
+				ai = no
+			}
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = immigration_gaba
+			add_country_modifier = {
+				name = mineral_revolution
+				duration = -1
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

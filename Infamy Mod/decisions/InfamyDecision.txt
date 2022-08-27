@@ -1,0 +1,17 @@
+political_decisions = {
+		gaba_infamy = {
+			picture = manifest_destiny
+			potential = {
+				ai = no
+			}
+			allow = {
+			}
+			effect = {
+				badboy = -25
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+}
