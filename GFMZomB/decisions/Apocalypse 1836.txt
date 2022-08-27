@@ -1,0 +1,224 @@
+political_decisions = {
+	state_of_emergency_proletarian_dictatorship = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = proletarian_dictatorship
+		}
+		allow = {
+			government = proletarian_dictatorship
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_proletarian_dictatorship
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_presidential_dictatorship = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = presidential_dictatorship
+		}
+		allow = {
+			government = presidential_dictatorship
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_presidential_dictatorship
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_bourgeois_dictatorship = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = bourgeois_dictatorship
+		}
+		allow = {
+			government = bourgeois_dictatorship
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_bourgeois_dictatorship
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_fascist_dictatorship = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = fascist_dictatorship
+		}
+		allow = {
+			government = fascist_dictatorship
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_fascist_dictatorship
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_absolute_monarchy = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = absolute_monarchy
+		}
+		allow = {
+			government = absolute_monarchy
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_absolute_monarchy
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_prussian_constitutionalism = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = prussian_constitutionalism
+		}
+		allow = {
+			government = prussian_constitutionalism
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_prussian_constitutionalism
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_hms_government = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = hms_government
+		}
+		allow = {
+			government = hms_government
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_hms_government
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_democracy = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = democracy
+		}
+		allow = {
+			government = democracy
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_democracy
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_colonial_company = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = colonial_company
+		}
+		allow = {
+			government = colonial_company
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_colonial_company
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_viceroyalty = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = viceroyalty
+		}
+		allow = {
+			government = viceroyalty
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_viceroyalty
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_constitutional_empire = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = constitutional_empire
+		}
+		allow = {
+			government = constitutional_empire
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_constitutional_empire
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_semi_constitutional_empire = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = semi_constitutional_empire
+		}
+		allow = {
+			government = semi_constitutional_empire
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_semi_constitutional_empire
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_absolute_empire = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = absolute_empire
+		}
+		allow = {
+			government = absolute_empire
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_absolute_empire
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	state_of_emergency_theocracy = {
+		potential = {
+			has_country_flag = zombie_outbreak
+			government = theocracy
+		}
+		allow = {
+			government = theocracy
+		}
+		effect = {
+			country_event = 3677426
+			government = state_of_emergency_theocracy
+			political_reform = none_voting
+			political_reform = appointed
+		}
+	}
+	allow_zombies = {
+		potential = {
+			NOT = { has_global_flag = zombie_start }
+			ai = no
+		}
+		allow = {
+			NOT = { has_global_flag = zombie_start }
+		}
+		effect = {
+			set_global_flag = zombie_start
+		}
+	}
+}
