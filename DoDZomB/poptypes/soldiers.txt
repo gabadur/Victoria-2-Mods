@@ -408,6 +408,24 @@ migration_target = {
         }
     }
     modifier = {
+        factor = 100
+        country = { has_country_flag = repopulate_zombie }
+        OR = {
+            trade_goods = coal
+            trade_goods = sulphur
+            trade_goods = iron
+            trade_goods = precious_metal
+            trade_goods = tobacco
+            trade_goods = coffee
+            trade_goods = tea
+			trade_goods = grain
+			trade_goods = cotton
+			trade_goods = dye
+			trade_goods = wool
+			trade_goods = timber
+        }
+    }
+    modifier = {
         factor = 2
         life_rating = 40
     }

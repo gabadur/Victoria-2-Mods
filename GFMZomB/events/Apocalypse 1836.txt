@@ -48,6 +48,7 @@ country_event = {
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
+			has_global_flag = zombie_end
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
@@ -96,6 +97,7 @@ country_event = {
 			has_province_modifier = zombie_outbreak
 		}
 		NOT = {
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 		}
@@ -153,6 +155,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -211,6 +214,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -269,6 +273,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -327,6 +332,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -397,6 +403,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -458,6 +465,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -528,6 +536,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -589,6 +598,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -647,6 +657,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -705,6 +716,7 @@ country_event = {
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -753,7 +765,7 @@ province_event = {
 			controlled_by = REB
 			country_units_in_province = REB
 		}
-		units_in_province = 1
+		units_in_province = 10
 	}
 
 	mean_time_to_happen = {
@@ -1566,7 +1578,7 @@ country_event = {
 
 	trigger = { 
 		has_global_flag = zombie_start
-	THIS = { NOT = { total_pops = 10 } }
+	THIS = { NOT = { total_pops = 100 } }
 	THIS = { NOT = { tag = CLN } }
 	}
 	

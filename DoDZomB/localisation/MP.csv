@@ -3,3 +3,9 @@ negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;;x
 negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;x
 negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
 negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x
+will_receive_title;Ask for Grants;;;;;;;;;;;;;x
+will_receive_desc;Ask;;;;;;;;;;;;;x
+will_give_title;Enable Giving Grants;;;;;;;;;;;;;x
+will_give_desc;Enable Giving;;;;;;;;;;;;;x
+will_not_give_title;Disable Giving Grants;;;;;;;;;;;;;x
+will_not_give_desc;Disable Giving;;;;;;;;;;;;;x

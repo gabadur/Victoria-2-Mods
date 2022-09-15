@@ -131,5 +131,60 @@ political_decisions = {
 			set_global_flag = zombie_start
 		}
 	}
-	
+	end_zombies = {
+		potential = {
+			NOT = { has_global_flag = zombie_end }
+			has_global_flag = zombie_start
+			ai = no
+		}
+		allow = {
+			NOT = { has_global_flag = zombie_end }
+		}
+		effect = {
+			set_global_flag = zombie_end
+		}
+		ai_will_do = {
+				factor = 0
+			}
 	}
+	zombie_sex_mandate_colonize = {
+		potential = {
+			has_global_flag = zombie_end
+			ai = no
+		}
+		allow = {
+			NOT = { has_country_flag = repopulate_zombie }
+		}
+		effect = {
+			set_country_flag = repopulate_zombie
+		}
+	}
+	zombie_sex_mandate = {
+		potential = {
+			has_country_flag = repopulate_zombie
+			ai = no
+			NOT = { has_country_modifier = gaba_dummy_anti_boom }
+		}
+		allow = {
+		}
+		effect = {
+			any_owned = {
+				limit = {
+						is_colonial = no
+						NOT = { has_province_modifier = gaba_baby_boom }
+				}
+				add_province_modifier = {
+						name = gaba_baby_boom
+						duration = 1820
+					}
+			}
+			add_country_modifier = {
+				name = gaba_dummy_anti_boom
+				duration = 1870
+			}
+		}
+			ai_will_do = {
+				factor = 0
+			}
+	}	
+}

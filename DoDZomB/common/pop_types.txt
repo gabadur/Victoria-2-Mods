@@ -467,6 +467,11 @@ colonialmigration_chance = {
         factor = 0.3
         country = { penal_system = colonial_transportation }
     }
+	
+    modifier = {
+        factor = 2
+        country = { has_country_flag = repopulate_zombie }
+    }
 
     #modifier = {
     #	factor = -0.3

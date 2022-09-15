@@ -11,6 +11,7 @@ country_event = {
 		ai = no
 		has_global_flag = zombie_start
 		NOT = {
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -72,6 +73,7 @@ country_event = {
 			has_country_flag = zombie_outbreak
 		}
 		NOT = {
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 			has_country_flag = zombie_outbreak_victory
@@ -170,6 +172,7 @@ country_event = {
 			has_province_modifier = zombie_outbreak
 		}
 		NOT = {
+			has_global_flag = zombie_end
 			has_country_flag = zombie_outbreak
 			has_country_flag = zombie_outbreak_defeat
 		}
@@ -281,6 +284,7 @@ country_event = {
 	picture = disease
 
 	trigger = {
+		NOT = { has_global_flag = zombie_end }
 			any_owned_province = {
 				has_province_modifier = zombie_outbreak
 			}
@@ -437,7 +441,8 @@ country_event = {
 	title = "Dead Land"
 	desc = "Your civilisation could not stand the test of time."
 
-	trigger = { 
+	trigger = {
+	has_global_flag = zombie_start
 	THIS = { NOT = { total_pops = 100 } }
 	THIS = { NOT = { tag = CLN } }
 	}

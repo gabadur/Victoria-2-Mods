@@ -594,7 +594,10 @@ colonialmigration_chance = {
             NOT = { location = { controlled_by = owner } }
         }
     }
-
+    modifier = {
+        factor = 2
+        country = { has_country_flag = repopulate_zombie }
+    }
     modifier = {
         factor = 0.02
         country = { penal_system = colonial_transportation }
