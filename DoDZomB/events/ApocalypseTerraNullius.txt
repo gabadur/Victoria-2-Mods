@@ -37,7 +37,6 @@
 		}
 		add_core = THIS
 		owner = { prestige = -3 }
-		life_rating = -10
 		change_controller = ZOM
 		secede_province = ZOM
 		ZOM = {
@@ -83,7 +82,6 @@ country_event = { #note, this must be a country event, otherwise it might happen
 			}
 			add_core = THIS
 			owner = { prestige = -3 }
-			life_rating = -10
 			change_controller = ZOM
 			secede_province = ZOM
 		}
