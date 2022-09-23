@@ -581,6 +581,19 @@ political_decisions = {
                 continent = north_america
                 continent = south_america
 				continent = australia_new_zealand
+				AND = {
+					ai = no
+					tag = SAF
+				}
+				AND = {
+					ai = no
+					tag = GRQ
+				}
+				AND = {
+					ai = no
+					tag = BTV
+				}
+				
             }
             NOT = { has_country_flag = land_of_opportunity }
         }
@@ -627,6 +640,10 @@ political_decisions = {
                 continent = north_america
                 continent = south_america
 				continent = australia_new_zealand
+				region = ENG_2074
+				region = ENG_2087
+				region = ENG_2097
+				
             }
             has_country_flag = land_of_opportunity
 			NOT = { has_country_flag = land_of_opportunity1 }

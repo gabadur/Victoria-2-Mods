@@ -5032,6 +5032,10 @@ gaba_jap_stuff = {
 	icon = 9
 }
 
+bureaucrats_fix_cooldown = {
+	icon = 9
+}
+
 gaba_dummy_baby_boom = {
 	icon = 17
 }

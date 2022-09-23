@@ -464,13 +464,18 @@ colonialmigration_chance = {
     }
 
     modifier = {
-        factor = 0.3
+        factor = 0.5
         country = { penal_system = colonial_transportation }
     }
 	
     modifier = {
-        factor = 1
-        country = { has_country_flag = repopulate_zombie }
+        factor = 0.3
+        country = { penal_system = incarceration }
+    }
+	
+    modifier = {
+        factor = 0.3
+        country = { penal_system = rehabilitation }
     }
 
     #modifier = {
@@ -986,6 +991,17 @@ assimilation_chance = {
     #	factor = -1
     #	is_accepted_culture = yes
     #}
+
+	modifier = {
+		factor = 10
+		country = { has_country_flag = boer_immigration }
+		location = { continent = africa }
+	}
+
+	modifier = {
+		factor = 10
+		country = { has_country_flag = immigration_gaba }
+	}
 
     group = {
         modifier = {

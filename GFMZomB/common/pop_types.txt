@@ -1047,6 +1047,11 @@ assimilation_chance = {
         }
     }
 
+	modifier = {
+		factor = 10
+		country = { has_country_flag = immigration_gaba }
+	}
+
     group = {
         modifier = {
             factor = 0.2

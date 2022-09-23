@@ -1,0 +1,11 @@
+owner = NBG
+controller = NBG
+add_core = NBG
+trade_goods = iron
+life_rating = 35
+terrain = mining_district
+state_building = {
+	level = 2 
+	building = steel_factory
+	upgrade = yes
+}

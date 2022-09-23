@@ -1,0 +1,35 @@
+political_decisions = {
+	craftsmen_fix = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = craftsmen_fix_cooldown }
+		}
+		allow = { 
+		}
+		effect = {
+			country_event = {id = 9999901 days = 0}
+			add_country_modifier = {
+				name = craftsmen_fix_cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+    bureaucrats_fix = {
+		alert = no
+        potential = {
+            ai = no
+            NOT = { has_country_modifier = bureaucrats_fix_cooldown }
+        }
+        allow = {
+        }
+        effect = {
+            country_event = {id = 40404040 days = 0}
+            add_country_modifier = {
+                name = bureaucrats_fix_cooldown
+                duration = 1825
+            }
+        }
+    }
+}
