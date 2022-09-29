@@ -7,7 +7,6 @@ political_decisions = {
                 tag = DUA
             }
             NOT = { has_global_flag = selon_treaty }
-            NOT = { has_global_flag = DVG_infamy }
         }
         allow = {
             is_greater_power = yes

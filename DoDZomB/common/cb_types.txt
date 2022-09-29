@@ -7245,7 +7245,10 @@ annex_india_AI = {
                 is_secondary_power = yes
             }
             NOT = { has_country_modifier = neutrality }
-            NOT = { has_global_flag = DVG_infamy }
+			OR = {
+				NOT = { has_global_flag = DVG_infamy }
+				ai = no
+			}
             civilized = yes
             has_global_flag = selon_treaty
         }
@@ -7369,7 +7372,10 @@ annex_india_full_AI = {
                 is_secondary_power = yes
             }
             NOT = { has_country_modifier = neutrality }
-            NOT = { has_global_flag = DVG_infamy }
+			OR = {
+				NOT = { has_global_flag = DVG_infamy }
+				ai = no
+			}
             civilized = yes
             has_global_flag = selon_treaty
             #ai = yes

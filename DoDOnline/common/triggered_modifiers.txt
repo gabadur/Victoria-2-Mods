@@ -477,3 +477,20 @@ powerful_HRE = {
     }
     prestige = -0.50
 }
+
+boer_republics = {
+	trigger = {
+		exists = yes
+		civilized = yes
+        OR = {
+            primary_culture = boer
+            primary_culture = afro_south_african
+		}
+		NOT = { year = 1860 }
+	}
+    assimilation_rate = 2
+    supply_consumption = -0.5
+    goods_demand = -0.25
+	badboy = -0.25
+    icon = 17	
+}

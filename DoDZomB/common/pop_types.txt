@@ -1003,6 +1003,13 @@ assimilation_chance = {
 		country = { has_country_flag = immigration_gaba }
 	}
 
+	modifier = {
+		factor = 21
+		country = { has_country_flag = DUA_schooling }
+		location = {
+			is_core = DUA
+		}
+	}
     group = {
         modifier = {
             factor = 10
