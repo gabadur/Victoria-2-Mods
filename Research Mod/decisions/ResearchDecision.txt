@@ -1,5 +1,6 @@
 political_decisions = {
 		gaba_research = {
+			alert = no
 			picture = manifest_destiny
 			potential = {
 				ai = no
@@ -15,6 +16,7 @@ political_decisions = {
 			}
 		}
 		gaba_rationalism = {
+			alert = no
 			picture = manifest_destiny
 			potential = {
 				NOT = { has_country_modifier = gaba_rationalism }
