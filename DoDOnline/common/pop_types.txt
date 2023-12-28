@@ -306,7 +306,7 @@ demotion_chance = {
 
 #general migration chance mtth, same for all pops
 migration_chance = {
-    factor = 1
+    factor = 1.2
 
     group = {
         modifier = {
@@ -324,7 +324,7 @@ migration_chance = {
     }
 
     modifier = {
-        factor = -2.2
+        factor = -2.4
         state_scope = { is_colonial = yes }
     }
 
@@ -405,7 +405,8 @@ migration_chance = {
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-    factor = 0.4
+    #factor = 0.4
+    factor = 0.6
 
     modifier = {
         factor = -0.5
@@ -464,17 +465,22 @@ colonialmigration_chance = {
     }
 
     modifier = {
-        factor = 0.5
+        factor = 0.6
         country = { penal_system = colonial_transportation }
     }
 	
+	modifier = {
+		factor = 0.3
+		country = { has_country_flag = resettlement_policies_enacted }
+	}
+	
     modifier = {
-        factor = 0.3
+        factor = 0.4
         country = { penal_system = incarceration }
     }
 	
     modifier = {
-        factor = 0.3
+        factor = 0.4
         country = { penal_system = rehabilitation }
     }
 
@@ -517,7 +523,8 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = {
-    factor = 0.5
+    #factor = 0.5
+    factor = 1.5
 
     modifier = {
         factor = -2.0

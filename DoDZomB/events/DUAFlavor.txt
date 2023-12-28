@@ -534,10 +534,18 @@ country_event = { ## Glorious Revolution
     }
 
     mean_time_to_happen = {
-        months = 170
+        months = 17
         modifier = {
             factor = 0.97
             has_country_flag = st_louis_speech
+        }
+        modifier = {
+            factor = 0.3
+            has_country_flag = french_int
+        }
+        modifier = {
+            factor = 0.3
+            year = 1848
         }
         modifier = {
             factor = 0.91

@@ -1,0 +1,22 @@
+ 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 
+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
+git clone https://oauth2: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@github.com/r-shar/Checkers_Student.git
+
+
+git checkout -b test_branch
+
+		This makes a branch called test_branch
+		
+	git status 
+	shows that its not commited
+	
+git add .
+
+This is staging for the push
+
+git commit -m "dummy_commit"
+
+git push https://oauth2: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@github.com/r-shar/Checkers_Student.git
+
+git checkout 
+	used to create or switch branches

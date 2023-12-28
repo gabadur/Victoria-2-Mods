@@ -992,7 +992,7 @@ country_event = { #note, this must be a country event, otherwise it might happen
 	}
 
 	mean_time_to_happen = {
-		months = 24
+		months = 1
 	}
 
 	option = {

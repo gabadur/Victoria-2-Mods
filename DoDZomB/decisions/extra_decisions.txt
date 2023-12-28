@@ -691,7 +691,21 @@ political_decisions = {
         allow = {}
 
         effect = { set_global_flag = dual_do_good }
-    }	
+    }
+	
+    option_enable_colombia_collapse = {
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_options
+            NOT = { year = 1837 }
+            NOT = { has_global_flag = colom_do_bad }
+        }
+
+        allow = {}
+
+        effect = { set_global_flag = colom_do_bad }
+    }
 
     # secret_police = {
     # 	alert = yes

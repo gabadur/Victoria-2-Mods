@@ -1,0 +1,72 @@
+political_decisions = {
+    good_goods = {
+		alert = no
+        picture = borneo_map
+        potential = {
+			civilized = yes
+			ai = no
+			capital_scope = {
+				NOT = {
+					trade_goods= precious_goods
+				}
+			}
+        }
+        allow = {
+            is_greater_power = yes
+            NOT = { war = yes }
+        }
+
+        effect = {
+			capital_scope = {
+					trade_goods= precious_goods
+			}
+        }
+    }
+
+
+    #Rostov retains its name.
+move_capital_to_moscow = {
+        picture = rostov
+        potential = {
+            tag = RUS
+            has_country_flag = RUS_moved_capital
+			NOT = { has_country_flag = RUS_moved_capital_again}
+        }
+
+        #Must control Crimea, Luhansk, and Rostov regions
+        allow = {
+            RUS_964 = { owned_by = THIS }
+            RUS_980 = { owned_by = THIS }
+            RUS_1048 = { owned_by = THIS }
+        }
+        effect = {
+            prestige = 10
+            capital = 1008
+            1008 = {
+                life_rating = 5
+                add_province_modifier = {
+                    name = gateway_to_russia
+                    duration = 7300
+                }
+            }
+            set_country_flag = RUS_moved_capital_again
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+	resettlement_policies_gab = {
+		alert = no
+		potential = {
+			ai = no
+		}
+		allow = {
+			NOT = { has_country_flag = resettlement_policies_enacted }
+		}
+		effect = {
+			set_country_flag = resettlement_policies_enacted
+			
+		}
+	}
+}
+	
+}

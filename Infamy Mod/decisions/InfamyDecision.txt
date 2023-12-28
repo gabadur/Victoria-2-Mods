@@ -1,5 +1,6 @@
 political_decisions = {
 		gaba_infamy = {
+			alert = no
 			picture = manifest_destiny
 			potential = {
 				ai = no
