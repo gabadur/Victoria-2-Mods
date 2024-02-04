@@ -358,6 +358,39 @@ migration_target = {
         factor = 1.05
         country = { colonial_nation = no }
         NOT = { country = { penal_system = colonial_transportation } }
+		NOT = { country = { has_country_flag = resettlement_policies_enacted } }
+        OR = {
+            trade_goods = coal
+            trade_goods = sulphur
+            trade_goods = iron
+            trade_goods = precious_metal
+            trade_goods = tobacco
+            trade_goods = coffee
+            trade_goods = tea
+        }
+        OR = {
+            terrain = desert
+            terrain = arctic
+            terrain = semidesert
+            terrain = boreal
+            terrain = small_island
+            terrain = montane_tundra
+            terrain = coral_island
+        }
+    }
+    modifier = {
+        factor = 1.25
+        country = { colonial_nation = no }
+		OR = {
+			country = { penal_system = colonial_transportation }
+			country = { has_country_flag = resettlement_policies_enacted }
+		}
+		NOT = {
+				AND = {
+				country = { penal_system = colonial_transportation }
+				country = { has_country_flag = resettlement_policies_enacted }
+			}
+		}
         OR = {
             trade_goods = coal
             trade_goods = sulphur
@@ -380,7 +413,10 @@ migration_target = {
     modifier = {
         factor = 1.5
         country = { colonial_nation = no }
-        country = { penal_system = colonial_transportation }
+		AND = {
+			country = { penal_system = colonial_transportation }
+			country = { has_country_flag = resettlement_policies_enacted }
+		}
         OR = {
             trade_goods = coal
             trade_goods = sulphur
@@ -400,24 +436,7 @@ migration_target = {
             terrain = coral_island
         }
     }
-    modifier = {
-        factor = 100
-        country = { has_country_flag = repopulate_zombie }
-        OR = {
-            trade_goods = coal
-            trade_goods = sulphur
-            trade_goods = iron
-            trade_goods = precious_metal
-            trade_goods = tobacco
-            trade_goods = coffee
-            trade_goods = tea
-			trade_goods = grain
-			trade_goods = cotton
-			trade_goods = dye
-			trade_goods = wool
-			trade_goods = timber
-        }
-    }
+
     modifier = {
         factor = 2
         life_rating = 40

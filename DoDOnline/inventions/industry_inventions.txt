@@ -3,6 +3,10 @@ daimlers_automobile = {
     limit = { combustion_engine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             electricity = 1
@@ -25,6 +29,10 @@ wright_n_langleys_aeroplanes = {
     limit = { combustion_engine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             electricity = 1
@@ -48,6 +56,10 @@ tractors = {
     limit = { combustion_engine = 1 }
     chance = {
         base = 3
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             average_consciousness = 2
@@ -71,6 +83,10 @@ direct_current = {
     limit = { electrical_power_generation = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = edison_light_bulb
@@ -89,6 +105,10 @@ alternating_current = {
     limit = { electrical_power_generation = 1 }
     chance = {
         base = 3
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = edison_light_bulb
@@ -107,6 +127,10 @@ polyphase_system = {
     limit = { electrical_power_generation = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = edison_light_bulb
@@ -126,6 +150,10 @@ sharp_n_roberts_power_loom = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = work_classification
@@ -147,6 +175,10 @@ jacquard_power_loom = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = sharp_n_roberts_power_loom
@@ -168,6 +200,10 @@ northrop_power_loom = {
     limit = { assembly_line = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = dobby_loom
@@ -188,6 +224,10 @@ mechanical_saw = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             hot_blast = 1
@@ -206,6 +246,10 @@ mechanical_precision_saw = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = mechanical_saw
@@ -223,6 +267,10 @@ hussey_n_mccormicks_reaping_machine = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             early_railroad = 1
@@ -242,6 +290,10 @@ pitts_threshing_machine = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = hussey_n_mccormicks_reaping_machine
@@ -261,6 +313,10 @@ mechanized_slaughtering_block = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             medicine = 1
@@ -280,6 +336,10 @@ precision_work = {
     limit = { interchangeable_parts = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = mechanical_precision_saw
@@ -301,6 +361,10 @@ machine_tools = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = precision_work
@@ -319,6 +383,10 @@ whitney_n_colts_standardized_small_arms = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             breech_loaded_rifles = 1
@@ -336,6 +404,10 @@ food_packing_system = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = distribution_channels
@@ -353,6 +425,10 @@ integral_distillery_process = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             scientific_management = 1
@@ -370,6 +446,10 @@ jiggs = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 1
             compound_steam_engines = 1
@@ -388,6 +468,10 @@ dobby_loom = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = sharp_n_roberts_power_loom
@@ -407,6 +491,10 @@ steam_powered_silk_reels = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = sharp_n_roberts_power_loom
@@ -425,6 +513,10 @@ lancashire_loom = {
     limit = { semi_automatization = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = dobby_loom
@@ -443,6 +535,10 @@ electric_machinery = {
     limit = { pneumatic_and_hydraulics = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             electricity = 1
@@ -461,6 +557,10 @@ oil_pumping_machinery = {
     limit = { pneumatic_and_hydraulics = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             iron_railroad = 1
@@ -478,6 +578,10 @@ drying_techniques = {
     limit = { pneumatic_and_hydraulics = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = distribution_channels
@@ -497,6 +601,10 @@ stiff_plastic_brickmaking_machine = {
     limit = { pneumatic_and_hydraulics = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = electric_machinery
@@ -520,6 +628,10 @@ fordism = {
     limit = { assembly_line = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = daimlers_automobile
@@ -538,6 +650,10 @@ fordism = {
 #	limit = { assembly_line = 1 }
 #	chance = {
 #		base = 3
+#		modifier = {
+#            factor = -20
+#            not = { civilized = yes }
+#        }
 #		modifier = {
 #			factor = 2
 #			bessemer_process = 1
@@ -558,6 +674,10 @@ industrialized_armament_industry = {
     limit = { assembly_line = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = precision_work
@@ -578,6 +698,10 @@ refrigerator_technology = {
     limit = { assembly_line = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = food_packing_system
@@ -600,6 +724,10 @@ ammunition_production = {
     limit = { mechanized_mining = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = whitney_n_colts_standardized_small_arms
@@ -615,6 +743,10 @@ small_arms_production = {
     limit = { mechanized_mining = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             strategic_mobility = 1
@@ -630,6 +762,10 @@ explosives_production = {
     limit = { mechanized_mining = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             medicine = 1
@@ -645,6 +781,10 @@ artillery_production = {
     limit = { mechanized_mining = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = explosives_production
@@ -661,6 +801,10 @@ pit_coal = {
     limit = { puddling = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             high_pressure_steam_engine = 1
@@ -678,6 +822,10 @@ coke = {
     limit = { puddling = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = pit_coal
@@ -696,6 +844,10 @@ advanced_ore_roasting_processes = {
     limit = { hot_blast = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             interchangeable_parts = 1
@@ -713,6 +865,10 @@ advanced_ore_grinding_processes = {
     limit = { hot_blast = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = advanced_ore_roasting_processes
@@ -730,6 +886,10 @@ advanced_ore_smelting_processes = {
     limit = { hot_blast = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = advanced_ore_grinding_processes
@@ -749,6 +909,10 @@ bessemer_steel = {
     limit = { bessemer_process = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             compound_steam_engines = 1
@@ -767,6 +931,10 @@ martin_steel = {
     limit = { bessemer_process = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = bessemer_steel
@@ -784,6 +952,10 @@ thomas_steel = {
     limit = { bessemer_process = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = martin_steel
@@ -802,6 +974,10 @@ electric_rolling_techniques = {
     limit = { advanced_metallurgy = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             electricity = 1
@@ -819,6 +995,10 @@ steel_alloys = {
     limit = { advanced_metallurgy = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = thomas_steel
@@ -837,6 +1017,10 @@ rotary_kiln = {
     limit = { advanced_metallurgy = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = stiff_plastic_brickmaking_machine
@@ -859,6 +1043,10 @@ stainless_steel = {
     limit = { electric_furnace = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             electrical_power_generation = 1
@@ -880,6 +1068,10 @@ combat_medicine = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             army_professionalism = 1
@@ -898,6 +1090,10 @@ aerial_bacteria_and_antiseptic_principle = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             colonial_nation = yes
@@ -917,6 +1113,10 @@ vaccination = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             empiricism = 1
@@ -936,6 +1136,10 @@ chemotherapy = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             empiricism = 1
@@ -951,6 +1155,10 @@ genetics_heredity = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             inorganic_chemistry = 1
@@ -966,6 +1174,10 @@ clinical_thermometers_and_binaural_stethoscopes = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             inorganic_chemistry = 1
@@ -981,6 +1193,10 @@ prophylaxis_against_malaria = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             inorganic_chemistry = 1
@@ -1000,6 +1216,10 @@ pressure_chambers_for_thorax_surgery = {
     limit = { medicine = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             assembly_line = 1
@@ -1042,6 +1262,10 @@ artificial_fertilizers = {
     limit = { inorganic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             interchangeable_parts = 1
@@ -1067,6 +1291,10 @@ nitroglycerin = {
     limit = { inorganic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             military_statistics = 1
@@ -1084,6 +1312,10 @@ chemical_wood_pulp_process = {
     limit = { inorganic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             semi_automatization = 1
@@ -1101,6 +1333,10 @@ rubber_vulcanization = {
     limit = { inorganic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             combustion_engine = 1
@@ -1118,6 +1354,10 @@ catalytic_fermentative_process = {
     limit = { inorganic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             business_banks = 1
@@ -1136,6 +1376,10 @@ synthetic_dye = {
     limit = { organic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             hot_blast = 1
@@ -1151,6 +1395,10 @@ gaslights = {
     limit = { inorganic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = patent
@@ -1166,6 +1414,10 @@ carbon_soil_enrichment = {
     limit = { organic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = artificial_fertilizers
@@ -1189,6 +1441,10 @@ cracking = {
     limit = { organic_chemistry = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = oil_pumping_machinery
@@ -1205,6 +1461,10 @@ x_rays = {
     limit = { electricity = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             average_consciousness = 2
@@ -1223,6 +1483,10 @@ edison_light_bulb = {
     limit = { electricity = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = direct_current
@@ -1238,6 +1502,10 @@ bell_n_greys_telephones = {
     limit = { electricity = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             electrical_power_generation = 1
@@ -1257,6 +1525,10 @@ electrical_lighting = {
     limit = { electricity = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = edison_light_bulb
@@ -1278,6 +1550,10 @@ rayon = {
     limit = { synthetic_polymers = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             organizational_development = 1
@@ -1295,6 +1571,10 @@ bakelite = {
     limit = { synthetic_polymers = 1 }
     chance = {
         base = 2
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 2
             invention = bell_n_greys_telephones
@@ -1316,6 +1596,10 @@ vacuum_tube = {
     }
     chance = {
         base = 1
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 5
             invention = direct_current
@@ -1354,6 +1638,10 @@ telephone_switchboard = {
     limit = { electricity = 1 }
     chance = {
         base = 0
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
         modifier = {
             factor = 5
             invention = bell_n_greys_telephones
@@ -1390,6 +1678,10 @@ charcoal_factory_i = {
     limit = { hot_blast = 1 }
     chance = {
         base = 5
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
     }
     effect = {
         activate_building = charcoal_factory
@@ -1400,6 +1692,10 @@ synthetic_sulphur_factory_i = {
     limit = { electric_furnace = 1 }
     chance = {
         base = 5
+		modifier = {
+            factor = -20
+            not = { civilized = yes }
+        }
     }
     effect = {
         activate_building = synthetic_sulphur_factory

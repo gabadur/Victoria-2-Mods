@@ -654,10 +654,12 @@ country_event = {
         sphere_owner = {
             is_greater_power = yes
 			OR = {
-            is_culture_group = THIS
 			tag = ITA
-			}
+			AND = {
+            is_culture_group = THIS
             is_cultural_union = yes
+			}
+			}
             war = no
         }
         OR = {
@@ -686,7 +688,7 @@ country_event = {
         NOT = { has_country_flag = post_colonial_country }
     }
 
-    mean_time_to_happen = { days = 1 }
+    mean_time_to_happen = { months = 12}
 
     option = {
         name = "EVTOPTA60120"
@@ -1034,20 +1036,7 @@ country_event = {
 
     trigger = {
         government = theocracy
-        NOT = { tag = MON }
-        NOT = { tag = ITA }
-        NOT = { tag = PAP }
-        NOT = { tag = TIB }
-        NOT = { tag = DAG }
-        NOT = { tag = TOO }
-        NOT = { tag = JAL }
-        NOT = { tag = YUG }
-        NOT = { tag = TOU }
-        NOT = { tag = SUD }
-        NOT = { tag = UAR }
-        NOT = { tag = QAJ }
-        NOT = { tag = PER }
-        NOT = { tag = ARY }		
+		NOT = { has_country_flag = theocracy_allowed }	
     }
 
     mean_time_to_happen = { months = 1 }

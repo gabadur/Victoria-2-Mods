@@ -7,6 +7,9 @@ fort_constructions = {
     icon = 10
 }
 
+gaba_influence = {
+	  influence_modifier = 2
+}
 ##### Apocalypse 1836 #####
 
 state_of_emergency = {

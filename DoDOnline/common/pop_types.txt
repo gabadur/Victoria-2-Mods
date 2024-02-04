@@ -465,7 +465,7 @@ colonialmigration_chance = {
     }
 
     modifier = {
-        factor = 0.6
+        factor = 0.5
         country = { penal_system = colonial_transportation }
     }
 	
@@ -527,7 +527,7 @@ emigration_chance = {
     factor = 1.5
 
     modifier = {
-        factor = -2.0
+        factor = -3.0
         OR = {
             location = { continent = north_america }
             location = { continent = south_america }
@@ -535,7 +535,10 @@ emigration_chance = {
         }
         country = {
             has_country_flag = new_world_nation
-            government = democracy
+			OR = {
+				government = democracy
+				government = hms_government
+			}
         }
     }
 
@@ -1003,6 +1006,11 @@ assimilation_chance = {
 		factor = 10
 		country = { has_country_flag = boer_immigration }
 		location = { continent = africa }
+	}
+	
+	modifier = {
+		factor = 20
+		country = { has_country_flag = resettlement_policies_enacted }
 	}
 
 	modifier = {

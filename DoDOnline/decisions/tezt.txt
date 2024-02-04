@@ -17,6 +17,7 @@ political_decisions = {
         }
 
         effect = {
+
 			capital_scope = {
 					trade_goods= precious_goods
 			}
@@ -58,15 +59,35 @@ move_capital_to_moscow = {
 		alert = no
 		potential = {
 			ai = no
+			NOT = { has_country_flag = resettlement_policies_enacted }
 		}
 		allow = {
-			NOT = { has_country_flag = resettlement_policies_enacted }
+			
 		}
 		effect = {
 			set_country_flag = resettlement_policies_enacted
-			
 		}
 	}
-}
+	gaba_influence_decision = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_flag = gaba_influence_flag }
+		}
+		allow = {
+			
+		}
+		effect = {
+			add_country_modifier = {
+					name = gaba_influence
+					duration = -1
+			}
+			set_country_flag = gaba_influence_flag
+			
+		}
+	}	
+	
+
+
 	
 }
