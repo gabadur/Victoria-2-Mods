@@ -220,7 +220,7 @@ province_event = {
 			controlled_by = REB
 			country_units_in_province = REB
 		}
-		units_in_province = 10
+		units_in_province = 3
 	}
 
 	mean_time_to_happen = {
@@ -303,7 +303,7 @@ country_event = {
 			random_neighbor_province = {
 			limit = {
 				NOT = { has_province_modifier = zombie_outbreak }
-				NOT = { units_in_province = 10 }
+				NOT = { units_in_province = 3 }
 			}
 			add_province_modifier = {
 				name = zombie_outbreak
